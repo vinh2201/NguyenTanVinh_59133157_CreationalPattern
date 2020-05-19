@@ -26,12 +26,12 @@ public class BT3_FactoryMethodSingleton_Main {
         Shape triangle= factory.createShape(ShapeType.triangle);
         triangle.setBrush("Tủ bày đồ");
         triangle.setFrame("Rộng ngang: 1,18 m, sâu: 0,34 m, cao: 1,79m");
-        triangle.setPaper("A4");
+        triangle.setPaper("A3");
         
         Shape circle= factory.createShape(ShapeType.circle);
         circle.setBrush("Tủ chạm gỗ trắc");
         circle.setFrame("Rộng 0,91m, sâu 0,25m, cao 1,09m");
-        circle.setPaper("A4");
+        circle.setPaper("A3");
         
         System.out.println("Loại tủ:\n"+rectangle.draw()+"\n");
         System.out.println("Loại tủ:\n"+triangle.draw()+"\n");
